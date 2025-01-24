@@ -1,0 +1,104 @@
+img{
+    max-width: 620px;
+    max-height: 465px;
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+}
+body
+{
+
+    max-width: 1440px;
+    width: auto;
+    margin: auto;
+    background-image: url("wallpaper_SC.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+
+#M_body
+{
+    background-color: lightslategray;
+    opacity: 0.9;
+}
+
+a
+{
+    margin: auto;
+    
+    text-align: justify;
+}
+
+h1  
+{
+    text-align: center;
+
+}
+
+h2  
+{
+    text-align: center;
+
+
+}
+
+h3
+{
+    margin: auto;
+    padding: 10px;
+
+}
+
+header
+{
+
+}
+
+footer
+{
+    text-align: center;
+    font-size:  larger;
+    background-color: grey;
+    padding: 40px;
+
+}
+
+#mein_content
+{
+
+}
+
+#Introduction
+{
+    padding: 10px;
+}
+
+#Faction_info
+{
+    
+}
+
+#UEF
+{
+    padding: 40px;
+}
+
+#Cybran
+{
+    padding: 40px;
+}
+
+#Aeon
+{
+    padding: 40px;
+}
+
+#Seraphim
+{
+    padding: 40px;
+}

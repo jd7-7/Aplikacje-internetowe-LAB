@@ -1,0 +1,151 @@
+img{
+    max-width: 620px;
+    max-height: 465px;
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+}
+body
+{
+
+    max-width: 1440px;
+    width: auto;
+    margin: auto;
+    background-image: url("wallpaper_SC2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+
+#M_body
+{
+    background-color: slategray;
+    opacity: 0.95;
+}
+
+a
+{
+    margin: auto;
+    
+    text-align: justify;
+    color: #7851A9;
+    font-size: 14;
+}
+
+h1  
+{
+    text-align: center;
+    font-weight: 2000;
+    font-style: italic;
+
+}
+
+h2  
+{
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+h3
+{
+    margin: auto;
+    padding: 10px;
+    text-decoration: underline overline;
+
+}
+
+header
+{
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+footer
+{
+    text-align: center;
+    font-size:  larger;
+    background-color: rgba(32, 32, 32, 0);
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-decoration-line: overline underline;
+    font-weight: 4000;
+}
+
+#mein_content
+{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+#Introduction
+{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+#Faction_info
+{
+    display: grid;
+    border: 2px solid black;
+    border-radius: 25px;
+
+    grid-template-areas:
+    "UEF Cybran"
+    "Aeon Seraphim";
+}
+
+@media only screen and (min-width: 400px) {
+    #Faction_info
+{
+    display: inline;
+}
+}
+
+#UEF
+{
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 25px;
+    grid-area: UEF;
+    background: linear-gradient(#104B73, #1111);
+    
+}
+
+#Cybran
+{
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 25px;
+    grid-area: Cybran;
+    background: linear-gradient(#771E0E, #1111);
+}
+
+#Aeon
+{
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 25px;
+    grid-area: Aeon;
+    background: linear-gradient(#0A551D, #1111);
+}
+
+#Seraphim
+{
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 25px;
+    grid-area: Seraphim;
+    background: linear-gradient(#9B7814, #1111);
+}
+
+ul {
+    list-style-type: square;
+  }
